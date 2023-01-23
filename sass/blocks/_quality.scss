@@ -2,11 +2,38 @@
   margin-bottom: 200px;
 
   .quality__inner {
-    background-image: url(../images/quality-back.png);
+    background-image: url(../../images/quality_back.png);
     background-repeat: no-repeat;
     padding: 100px 84px 0;
     display: flex;
     flex-direction: column;
     align-items: center;
+
+    .quality-info {
+      width: 540px;
+      text-align: center;
+      margin-bottom: 86px;
+    }
+
+    .quality-info__title {
+      font-family: "Fraunces 9pt";
+      font-style: normal;
+      font-weight: 900;
+      font-size: 40px;
+      line-height: 48px;
+      color: #fefcf7;
+      margin-bottom: 32px;
+    }
+
+    .quality-info__subtitle {
+      font-family: "Barlow";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 26px;
+      color: #fefcf7;
+      mix-blend-mode: normal;
+      opacity: 0.8;
+    }
   }
 }
