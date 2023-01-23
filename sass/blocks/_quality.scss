@@ -1,0 +1,12 @@
+.quality {
+  margin-bottom: 200px;
+
+  .quality__inner {
+    background-image: url(../images/quality-back.png);
+    background-repeat: no-repeat;
+    padding: 100px 84px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}
